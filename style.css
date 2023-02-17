@@ -576,7 +576,7 @@ section ul li.active{
 
     @media(max-width: 676px){
         .popup-form{
-            width: 500px;
+            width: 450px;
         }
         .fa-bars{
             display: block;
