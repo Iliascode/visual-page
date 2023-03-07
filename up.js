@@ -7,8 +7,9 @@
     const buttons = document.querySelectorAll(".item");
     const imageGallary = document.querySelectorAll(".work-item");
     const questionContent = document.querySelectorAll(".question-content");
-
-    
+    const bodyEl = document.querySelector("body");
+    const portfolioContentEl = document.querySelector(".portfolio-content");
+    const worksEl = document.querySelector(".works");
 
     //bar menu//
     bars.addEventListener("click", ()=>{
@@ -69,7 +70,7 @@
     });
 
     
-   
+   //portfolio//
 
     for(let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener("click", function(){
@@ -85,8 +86,9 @@
                 imageGallary[k].style.display = "block";
             }
         }
-    })
+    });
 }
+
 
 // FAQ section //
 questionContent.forEach((content)=>{
@@ -105,17 +107,14 @@ questionContent.forEach((content)=>{
     });
 });
 
-// popup window //
-const popupContainer = document.querySelector(".popup-container");
-const popupForm = document.querySelector(".popup-form");
-const popupBtn = document.querySelector("#popup-btn");
-const closeIconBtn = document.querySelector(".fa-xmark");
+//email form//
+
 const emailEl = document.getElementById("email");
 const textEl = document.getElementById("text");
 const textareaEl = document.getElementById("msg");
-const buttonEl = document.getElementById("button");
+const sendBtn = document.getElementById("send");
 
-buttonEl.addEventListener("click", (e)=>{
+sendBtn.addEventListener("click", (e)=>{
     e.preventDefault();
 
     let ebody = `
@@ -137,16 +136,6 @@ buttonEl.addEventListener("click", (e)=>{
     }).then(
       message => alert(message)
     );
-});
-
-popupBtn.addEventListener("click", ()=>{
-    popupContainer.classList.add("active");
-    popupForm.classList.remove("active");
-});
-
-closeIconBtn.addEventListener("click", ()=>{
-    popupContainer.classList.remove("active");
-    popupForm.classList.add("active");
 });
 
 
