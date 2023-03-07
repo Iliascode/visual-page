@@ -521,7 +521,7 @@ section ul li.active{
             left: 0;
             right: 0;
             display: flex;
-            background-image: url("/picture/bg1.jpg");
+            background-image: url("bg1.jpg");
             text-align: center;
             transition: all .5s ease;
             overflow: hidden;
