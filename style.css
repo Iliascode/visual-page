@@ -658,9 +658,6 @@ section ul li.active{
         .services-content{
             display: grid;
             grid-template-columns: 1fr;  
-        }   
-        .box.inactive{
-            grid-column: span 6;
         }
         .wrapper{
         display: grid;
