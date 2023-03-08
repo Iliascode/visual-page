@@ -660,8 +660,9 @@ section ul li.active{
             grid-template-columns: 1fr;  
         }
         .wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
         }
     }
 
