@@ -86,20 +86,21 @@ section{
     text-align: center;
 }
 .home h1{
-    color: black;
-    line-height: 35px;
+    color: lightgray;
+    line-height: 30px;
     letter-spacing: 3px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 .home p{
+    color: lightgray;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: 3px;
 }
 .home-contact{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .home-contact p{
     color: lightgray;
@@ -121,7 +122,7 @@ section{
     width: 100%;
     top: 0;
     left: 0;
-    transform: rotateY(calc(var(--i)*45deg)) translateZ(500px);
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
 }
 .image-box span img{
     position: absolute;
@@ -154,10 +155,10 @@ section{
     transform: scale(1.1);
 }
 #back{
-    left: -10%;
+    left: 1%;
 }
 #next{
-    right: -10%;
+    right: 1%;
 }
 .btn{
     display: inline-block;
@@ -179,7 +180,7 @@ section{
 }
 .heading h6, .contact-title h6{
     font-size: 30px;
-    color: black;
+    color: lightgrey;
     line-height: 35px;
     letter-spacing: 3px;
     margin-bottom: 50px;
@@ -205,11 +206,12 @@ section{
     text-align: center;
 }
 .box i{
-    color: black;
+    color: lightgray;
     font-size: 30px;
     margin-bottom: 18px;
 }
 .box h3{
+    color: lightgray;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
@@ -219,11 +221,14 @@ section{
     padding: 10px;
     box-shadow: 0px 20px 30px lightgray;
 }
-.box p{
+.box .open{
     display: none;
 }
 .box.active h3,
 .box.active i{
+    color: lightgray;
+}
+.box p{
     color: lightgray;
 }
 .box.active p{
@@ -252,7 +257,7 @@ section{
     color: lightgray;
     border: 2px solid lightgray;
     box-shadow: 0px 5px 10px lightgray;
-    font-weight: 500;
+    font-weight: 300;
     border-radius: 30px;
     cursor: pointer;
     transition: all .45s ease;
@@ -302,7 +307,7 @@ section ul li.active{
 }
 .FAQ h6{
     font-size: 30px;
-    color: black;
+    color: lightgray;
     line-height: 35px;
     letter-spacing: 3px;
     margin-bottom: 50px;
@@ -327,21 +332,24 @@ section ul li.active{
     min-height: 50px;
     transition: all .45s linear;
 }
-.question-content .title:hover{
-    color: lightgray;
-}
 .question-content .title i{
-    font-size: 30px;
+    color: lightgray;
+    font-size: 20px;
     cursor: pointer;
-    transition: all 0.2s linear;
+    transition: all .45s linear;
 }
 .question-content .title i:hover{
-    transform: scale(1.01) translateY(-3px);
+    transform: scale(1.05) translateY(-2px);
 }
 .question-content .title span{
+    color: lightgray;
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 3px;
+    transition: all .45s linear;
+}
+.question-content .title span:hover{
+    filter: brightness(1.5);
 }
 .question-content .discription{
     color: lightgray;
@@ -377,15 +385,15 @@ section ul li.active{
 .close-icon:hover{
     color: #FB2576;
 }
-
 .contact-text h6{
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: lightgray;
     line-height: 35px;
     letter-spacing: 3px;
 }
 .contact-text p{
+    color: lightgray;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -486,27 +494,44 @@ section ul li.active{
             text-align: center;
             grid-template-columns: 1fr;
         }
-        .home h5{
-            font-size: 1.5rem;
-            margin-top: 150px;
+        .home h1{
+            margin-top: 80px;
+        }
+        .home h1, .FAQ h6,
+        .heading h6, .contact-title h6{
+            color: lightgray;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .question-content .title span,
+        .box h3{
+            font-size: 15px;
+        }
+        .question-content .discription,
+        .box p{
+            font-size: 12px;
+        }
+        .home p{
+            font-size: 13px;
+            font-weight: 400;
         }
         .image-box{
             display: block;
-            margin: 100px auto;
+            margin-top: 100px;
         }
         .btns{
             position: relative;
         }
         .button{
             position: absolute;
-            bottom: 50px;
-            padding: 3px 8px;
+            bottom: -30px;
+            padding: 3px 5px;
         }
         #back{
-            left: 40%
+            left: 43%
         }
         #next{
-            right: 40%;
+            right: 43%;
         }
     }
 
@@ -535,7 +560,7 @@ section ul li.active{
         .navlist ul{
             display: block;
             width: fit-content;
-            margin: 80px auto 0 auto;
+            margin: 50px auto 0 auto;
             text-align: center;
             transition: 0.5s;
             opacity: 0;
@@ -578,10 +603,8 @@ section ul li.active{
     }
     @media (max-width: 676px){
         .services-content{
-            width: 100%;
-        }
-        .box p{
-            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
         }
         .home-contact{
             display: flex;
@@ -628,6 +651,7 @@ section ul li.active{
             grid-column: span 6;
         }
   }
+
 
 
 
