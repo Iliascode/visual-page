@@ -229,6 +229,7 @@ section{
     color: lightgray;
 }
 .box p{
+    text-transform: uppercase;
     color: lightgray;
 }
 .box.active p{
@@ -518,8 +519,8 @@ section ul li.active{
             font-weight: 400;
         }
         .col-1 a{
-             height: 20px;
-             width: 20px;
+             height: 30px;
+             width: 30px;
              border-radius: 50%;
              border: 2px solid;
         }
@@ -662,11 +663,17 @@ section ul li.active{
     @media(max-width: 450px){
         .services-content{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);  
+            grid-template-columns: 1fr;  
         }   
         .box.inactive{
             grid-column: span 6;
         }
+        .form{
+            width: 100%;
+        }
+        .form input, .font textarea{
+            font-size: 14px;
+    }
   }
 
 
