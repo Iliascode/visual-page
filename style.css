@@ -94,7 +94,7 @@ section{
 }
 .home p{
     color: lightgray;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     letter-spacing: 3px;
 }
@@ -155,10 +155,10 @@ section{
     transform: scale(1.1);
 }
 #back{
-    left: 3%;
+    left: 10%;
 }
 #next{
-    right: 3%;
+    right: 10%;
 }
 .btn{
     display: inline-block;
@@ -512,10 +512,12 @@ section ul li.active{
             font-size: 12px;
         }
         .contact-text p,
-        .home p{
+        .home p,
+        .col-1 a, .col-1 p{
             font-size: 13px;
             font-weight: 400;
         }
+        
         .image-box{
             display: block;
             margin-top: 100px;
