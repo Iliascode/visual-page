@@ -46,26 +46,12 @@
     //services section//
 
 
-    gsap.registerPlugin(Flip);
+    const boxEl = document.querySelectorAll(".box");
 
-    cards.forEach((card,index) => {
-        card.addEventListener("click", ()=>{
-            const state = Flip.getState(cards);
-            const isCardActive = card.classList.contains("active");
-        cards.forEach((otherCard, otherInx) => {
-            otherCard.classList.remove("active");
-            otherCard.classList.remove("inactive");
-            if(!isCardActive && index !== otherInx){
-                otherCard.classList.add("inactive");
-                }
-            });
-            if(!isCardActive) card.classList.add("active");
-
-                Flip.from(state, {
-                    duration: 1,
-                    ease: "expo.out",
-                    absolute: true,
-            });
+    boxEl.forEach((boxes, number)=>{
+        let descriptionEl = boxes.querySelector(".description");
+        boxes.addEventListener("click", ()=>{
+            descriptionEl.classList.toggle("open");
         });
     });
 
