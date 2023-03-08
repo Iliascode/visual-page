@@ -537,20 +537,14 @@ section ul li.active{
             padding: 3px 5px;
         }
         #back{
-            left: 30%
+            left: 40%
         }
         #next{
-            right: 30%;
+            right: 40%;
         }
         .contact-text h6{
             font-size: 15px;
         }
-        .form{
-            width: 100%;
-        }
-        .form input, .font textarea{
-            font-size: 14px;
-    }
         
 
     @media(max-width: 676px){
@@ -669,7 +663,7 @@ section ul li.active{
             grid-column: span 6;
         }
         .form{
-            width: 100%;
+            width: 450px;
         }
         .form input, .font textarea{
             font-size: 14px;
