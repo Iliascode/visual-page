@@ -662,13 +662,11 @@ section ul li.active{
         .box.inactive{
             grid-column: span 6;
         }
-        .form{
-            width: 450px;
+        .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
         }
-        .form input, .font textarea{
-            font-size: 14px;
     }
-  }
 
 
 
