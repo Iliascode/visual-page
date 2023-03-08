@@ -528,10 +528,10 @@ section ul li.active{
             padding: 3px 5px;
         }
         #back{
-            left: 35%
+            left: 43%
         }
         #next{
-            right: 35%;
+            right: 43%;
         }
     }
 
@@ -651,16 +651,6 @@ section ul li.active{
             grid-column: span 6;
         }
   }
-
-
-
-
-
-
-
-
-
-
 
 
 
