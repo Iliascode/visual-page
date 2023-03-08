@@ -1,4 +1,4 @@
-    const bars = document.querySelector(".fa-bars");
+        const bars = document.querySelector(".fa-bars");
     const menulist = document.querySelector(".navlist");
     const images = document.querySelector(".image-box");
     const backBtn = document.getElementById("back");
@@ -44,8 +44,6 @@
 
 
     //services section//
-
-
     const boxEl = document.querySelectorAll(".box");
 
     boxEl.forEach((boxes, number)=>{
@@ -55,7 +53,6 @@
         });
     });
 
-    
    //portfolio//
 
     for(let i = 0; i < buttons.length; i++) {
@@ -77,7 +74,7 @@
 
 
 // FAQ section //
-questionContent.forEach((content)=>{
+questionContent.forEach((content, index)=>{
     let title = content.querySelector(".title");
     title.addEventListener("click", ()=>{
         content.classList.toggle("open");
@@ -90,8 +87,21 @@ questionContent.forEach((content)=>{
         discription.style.height = "0px";
         content.querySelector("i").classList.replace("fa-angle-down", "fa-angle-right");
         }
+        removeOpen(index);
     });
 });
+function removeOpen(index1){
+    questionContent.forEach((content2, index2) =>{
+        if(index1 != index2){
+            content2.classList.remove("open");
+
+            let dis = content2.querySelector(".discription");
+            dis.style.height = "0px";
+            content2.querySelector("i").classList.replace("fa-angle-down", "fa-angle-right");
+        }
+    });
+}
+
 
 //email form//
 
@@ -123,14 +133,4 @@ sendBtn.addEventListener("click", (e)=>{
       message => alert(message)
     );
 });
-
-
-
-
-
-
-
-
-
-
 
