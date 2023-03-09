@@ -42,17 +42,6 @@
         }, 3000);
     }
 
-
-    //services section//
-    const boxEl = document.querySelectorAll(".box");
-
-    boxEl.forEach((boxes, number)=>{
-        let descriptionEl = boxes.querySelector(".description");
-        boxes.addEventListener("click", ()=>{
-            descriptionEl.classList.toggle("open");
-        });
-    });
-
    //portfolio//
 
     for(let i = 0; i < buttons.length; i++) {
