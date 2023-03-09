@@ -666,6 +666,7 @@ section ul li.active{
             grid-template-columns: 1fr;  
         }
         .wrapper{
+            width: 450px;
             display: grid;
             grid-template-columns: 1fr;
         }
