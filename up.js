@@ -1,4 +1,4 @@
-        const bars = document.querySelector(".fa-bars");
+    const bars = document.querySelector(".fa-bars");
     const menulist = document.querySelector(".navlist");
     const images = document.querySelector(".image-box");
     const backBtn = document.getElementById("back");
