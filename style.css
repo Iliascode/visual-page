@@ -653,6 +653,7 @@ section ul li.active{
   }
     @media(max-width: 450px){
          section{
+            width: 100%;
             padding: 90px 4%;
         }
         header{
