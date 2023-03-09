@@ -221,9 +221,6 @@ section{
     padding: 10px;
     box-shadow: 0px 20px 30px lightgray;
 }
-.box .open{
-    display: none;
-}
 .box.active h3,
 .box.active i{
     color: lightgray;
