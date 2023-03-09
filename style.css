@@ -653,7 +653,7 @@ section ul li.active{
   }
     @media(max-width: 450px){
          section{
-            width: 100%;
+            width: 450px;
             padding: 90px 4%;
         }
         header{
@@ -664,7 +664,6 @@ section ul li.active{
             grid-template-columns: 1fr;  
         }
         .wrapper{
-            width: 430px;
             display: grid;
             grid-template-columns: 1fr;
         }
