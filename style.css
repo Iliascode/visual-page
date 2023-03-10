@@ -155,10 +155,10 @@ section{
     transform: scale(1.1);
 }
 #back{
-    left: 7%;
+    left: 10px;
 }
 #next{
-    right: 7%;
+    right: 10px;
 }
 .btn{
     display: inline-block;
@@ -580,7 +580,7 @@ section ul li.active{
             position: relative;
             padding: 150px 7%;
             width: 100%;
-            height: 150px;
+            height: 100%;
             transform-style: preserve-3d;
             transform: perspective(1000px) rotateY(0deg);
             transition: transform 0.7s;
@@ -599,6 +599,17 @@ section ul li.active{
             width: 100%;
             height: 200px;
             transition: all 0.5s ease;
+        }
+        .button{
+            position: absolute;
+            bottom: -30px;
+            padding: 3px 5px;
+        }
+        #back{
+            left: 38%
+        }
+        #next{
+            right: 38%;
         }
         .home-contact p{
             display: none;
