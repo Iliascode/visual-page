@@ -144,7 +144,7 @@ section{
 .button{
     position: absolute;
     padding: 5px;
-    bottom: 120px;
+    bottom: 50%;
     font-size: 20px;
     font-weight: 500;
     border-radius: 10px;
