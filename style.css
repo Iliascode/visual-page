@@ -144,7 +144,7 @@ section{
 .button{
     position: absolute;
     padding: 5px;
-    bottom: 50%;
+    bottom: 150px;
     font-size: 20px;
     font-weight: 500;
     border-radius: 10px;
@@ -155,10 +155,10 @@ section{
     transform: scale(1.1);
 }
 #back{
-    left: 5%;
+    left: 7%;
 }
 #next{
-    right: 5%;
+    right: 7%;
 }
 .btn{
     display: inline-block;
