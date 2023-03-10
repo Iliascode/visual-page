@@ -144,7 +144,7 @@ section{
 .button{
     position: absolute;
     padding: 5px;
-    bottom: 140px;
+    bottom: 120px;
     font-size: 20px;
     font-weight: 500;
     border-radius: 10px;
@@ -658,15 +658,11 @@ section ul li.active{
         header{
             padding: 14px 4%;
         }
-        .form{
-         width: 450px;
-        }
         .services-content{
             display: grid;
             grid-template-columns: 1fr;  
         }
         .wrapper{
-            width: 450px;
             display: grid;
             grid-template-columns: 1fr;
         }
