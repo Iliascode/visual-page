@@ -155,10 +155,10 @@ section{
     transform: scale(1.1);
 }
 #back{
-    left: 7%;
+    left: 3%;
 }
 #next{
-    right: 7%;
+    right: 3%;
 }
 .btn{
     display: inline-block;
@@ -579,7 +579,7 @@ section ul li.active{
         .image-box{
             position: relative;
             padding: 150px 7%;
-            width: 180px;
+            width: 170px;
             height: 150px;
             transform-style: preserve-3d;
             transform: perspective(1000px) rotateY(0deg);
@@ -590,7 +590,7 @@ section ul li.active{
             width: 100%;
             top: 0;
             left: 0;
-            transform: rotateY(calc(var(--i)*45deg)) translateZ(250px);
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
         }
         .image-box span img{
             position: absolute;
@@ -615,7 +615,7 @@ section ul li.active{
             text-align: center;
         }
         .form{
-           width: 380px; 
+           width: 390px; 
     }
 }
 
