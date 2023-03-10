@@ -496,7 +496,8 @@ section ul li.active{
             margin-top: 80px;
         }
         .home h1, .FAQ h6,
-        .heading h6, .contact-title h6{
+        .heading h6, .contact-title h6,
+        .contact-text h6{
             color: lightgray;
             font-size: 20px;
             font-weight: 300;
@@ -509,21 +510,10 @@ section ul li.active{
         .box p{
             font-size: 12px;
         }
-        .contact-text p,
         .home p,
-        .col-1 a, .col-1 p{
+        .contact-text p{
             font-size: 13px;
             font-weight: 400;
-        }
-        .col-1 a{
-             height: 30px;
-             width: 30px;
-             border-radius: 50%;
-             border: 2px solid;
-        }
-        .image-box{
-            display: block;
-            margin-top: 100px;
         }
         .btns{
             position: relative;
@@ -534,15 +524,12 @@ section ul li.active{
             padding: 3px 5px;
         }
         #back{
-            left: 40%
+            left: 43%
         }
         #next{
-            right: 40%;
+            right: 43%;
         }
-        .contact-text h6{
-            font-size: 15px;
-        }
-        
+    }
 
     @media(max-width: 676px){
         .fa-bars{
@@ -555,7 +542,7 @@ section ul li.active{
             left: 0;
             right: 0;
             display: flex;
-            background-image: url("bg1.jpg");
+            background-image: url("/picture/bg1.jpg");
             text-align: center;
             transition: all .5s ease;
             overflow: hidden;
@@ -609,19 +596,12 @@ section ul li.active{
             height: 250px;
             transition: all 0.5s ease;
         }
-    }
-    @media (max-width: 676px){
+        .home-contact p{
+            display: none;
+        }
         .services-content{
             display: grid;
             grid-template-columns: 1fr;
-        }
-        .home-contact{
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 5px;
-        }
-        .home-contact p{
-            display: none;
         }
         .wrapper{
             display: grid;
@@ -630,29 +610,8 @@ section ul li.active{
         .col-1{
             text-align: center;
         }
-        .box{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            grid-column: span 3;
-            width: 100%;
-        }
     }
-    @media(max-width: 562px){
-        .FAQ h6{
-            width: 100%;
-            text-align: center;
-        }
-        .services-content{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);  
-        }   
-        .box.inactive{
-            grid-column: span 6;
-        }
-  }
    
-
 
 
 
