@@ -144,7 +144,6 @@ section{
 .button{
     position: absolute;
     padding: 5px;
-    bottom: 150px;
     font-size: 20px;
     font-weight: 500;
     border-radius: 10px;
@@ -579,8 +578,8 @@ section ul li.active{
         .image-box{
             position: relative;
             padding: 150px 7%;
-            width: 170px;
-            height: 200px;
+            width: 180px;
+            height: 150px;
             transform-style: preserve-3d;
             transform: perspective(1000px) rotateY(0deg);
             transition: transform 0.7s;
@@ -590,7 +589,7 @@ section ul li.active{
             width: 100%;
             top: 0;
             left: 0;
-            transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(250px);
         }
         .image-box span img{
             position: absolute;
