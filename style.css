@@ -226,6 +226,7 @@ section{
     color: lightgray;
 }
 .box p{
+    font-size: 15px;
     text-transform: uppercase;
     color: lightgray;
 }
@@ -428,8 +429,7 @@ section ul li.active{
     margin-top: 50px;
 }
 .form{
-    max-width: 100%;
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
 }
