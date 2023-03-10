@@ -428,8 +428,8 @@ section ul li.active{
     margin-top: 50px;
 }
 .form{
-    max-width: 450px;
-    width: 100%;
+    max-width: 100%;
+    width: 450px;
     display: flex;
     flex-direction: column;
 }
@@ -464,7 +464,6 @@ section ul li.active{
 }
 .end h4{
     text-align: center;
-    
     font-size: 12px;
     margin-bottom: 10px;
 }
@@ -615,7 +614,6 @@ section ul li.active{
         .col-1{
             text-align: center;
         }
-      
     }
    
 
