@@ -154,10 +154,10 @@ section{
     transform: scale(1.1);
 }
 #back{
-    left: -10px;
+    left: -70px;
 }
 #next{
-    right: -10px;
+    right: -70px;
 }
 .btn{
     display: inline-block;
@@ -501,6 +501,7 @@ section ul li.active{
             color: lightgray;
             font-size: 20px;
             font-weight: 300;
+            text-align: center;
         }
         .question-content .title span,
         .box h3{
