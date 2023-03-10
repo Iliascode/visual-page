@@ -154,10 +154,10 @@ section{
     transform: scale(1.1);
 }
 #back{
-    left: 10px;
+    left: -10px;
 }
 #next{
-    right: 10px;
+    right: -10px;
 }
 .btn{
     display: inline-block;
@@ -578,7 +578,7 @@ section ul li.active{
         .image-box{
             position: relative;
             padding: 150px 7%;
-            width: 180px;
+            width: 150px;
             height: 150px;
             transform-style: preserve-3d;
             transform: perspective(1000px) rotateY(0deg);
@@ -625,7 +625,7 @@ section ul li.active{
             text-align: center;
         }
         .form{
-           width: 390px; 
+           width: 380px; 
     }
 }
 
