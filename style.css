@@ -666,6 +666,7 @@ section ul li.active{
             text-align: center;
         }
         .form{
+           align-items: center;
            width: 350px; 
     }
 }
