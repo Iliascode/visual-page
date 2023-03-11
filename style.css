@@ -590,14 +590,14 @@ section ul li.active{
             width: 100%;
             top: 0;
             left: 0;
-            transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(180px);
         }
         .image-box span img{
             position: absolute;
             left: 0;
             top: 0;
             width: 100%;
-            height: 200px;
+            height: 250px;
             transition: all 0.5s ease;
         }
         .button{
