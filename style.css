@@ -619,7 +619,7 @@ section ul li.active{
         .image-box{
             position: relative;
             padding: 150px 7%;
-            width: 180px;
+            width: 160px;
             height: 180px;
             transform-style: preserve-3d;
             transform: perspective(1000px) rotateY(0deg);
