@@ -630,7 +630,7 @@ section ul li.active{
             width: 100%;
             top: 0;
             left: 0;
-            transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(210px);
         }
         .image-box span img{
             position: absolute;
@@ -666,7 +666,7 @@ section ul li.active{
             text-align: center;
         }
         .form{
-           width: 320px; 
+           width: 350px; 
     }
 }
 
