@@ -532,7 +532,7 @@ section ul li.active{
         }
     }
 
-    @media(max-width: 400px){
+    @media(max-width: 430px){
         section{
             width: 100%;
         }
@@ -579,7 +579,7 @@ section ul li.active{
         .image-box{
             position: relative;
             padding: 150px 7%;
-            width: 170px;
+            width: 180px;
             height: 150px;
             transform-style: preserve-3d;
             transform: perspective(1000px) rotateY(0deg);
@@ -597,7 +597,7 @@ section ul li.active{
             left: 0;
             top: 0;
             width: 100%;
-            height: 150px;
+            height: 190px;
             transition: all 0.5s ease;
         }
         .button{
