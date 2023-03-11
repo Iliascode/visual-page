@@ -572,7 +572,7 @@ section ul li.active{
         }
     }
 
-    @media(max-width: 480px){
+    @media(max-width: 550px){
         section{
             width: 100%;
         }
@@ -620,7 +620,7 @@ section ul li.active{
             position: relative;
             padding: 150px 7%;
             width: 180px;
-            height: 150px;
+            height: 180px;
             transform-style: preserve-3d;
             transform: perspective(1000px) rotateY(0deg);
             transition: transform 0.7s;
@@ -630,14 +630,14 @@ section ul li.active{
             width: 100%;
             top: 0;
             left: 0;
-            transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(250px);
         }
         .image-box span img{
             position: absolute;
             left: 0;
             top: 0;
             width: 100%;
-            height: 200px;
+            height: 250px;
             transition: all 0.5s ease;
         }
         .button{
