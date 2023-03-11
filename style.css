@@ -647,6 +647,7 @@ section ul li.active{
             display: none;
         }
         .services-content{
+            width: 350px;
             display: grid;
             grid-template-columns: 1fr;
         }
