@@ -111,8 +111,8 @@ section{
 .image-box{
     position: relative;
     padding: 150px 7%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transform-style: preserve-3d;
     transform: perspective(1000px) rotateY(0deg);
     transition: transform 0.7s;
@@ -129,7 +129,7 @@ section{
     left: 0;
     top: 0;
     width: 100%;
-    height: 250px;
+    height: 200px;
     transition: all 0.5s ease;
 }
 .image-box span img:hover{
@@ -488,6 +488,46 @@ section ul li.active{
         section{
             padding: 70px 3% 60px;
         }
+    .fa-bars{
+            display: block;
+        }
+        .navlist{
+            height: 0;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            right: 0;
+            display: flex;
+            background-image: url("bg1.jpg");
+            text-align: center;
+            transition: all .5s ease;
+            overflow: hidden;
+        }
+        .navlist.show-navlist{
+            height: 400px;
+        }
+        .navlist.navlist.show-navlist ul{
+            opacity: 1;  
+        }
+        .navlist ul{
+            display: block;
+            width: fit-content;
+            margin: 50px auto 0 auto;
+            text-align: center;
+            transition: 0.5s;
+            opacity: 0;
+        }
+        .navlist ul li a{
+            margin-bottom: 10px;
+            width: 100%;
+            transition: all 0.5s ease;
+        }
+        .navlist a:hover{
+            filter: brightness(1.5);
+            color: #FB2576;
+            padding: 15px 20px;
+            border: none;
+        }
         .home{
             text-align: center;
             grid-template-columns: 1fr;
@@ -532,7 +572,7 @@ section ul li.active{
         }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 480px){
         section{
             width: 100%;
         }
@@ -590,14 +630,14 @@ section ul li.active{
             width: 100%;
             top: 0;
             left: 0;
-            transform: rotateY(calc(var(--i)*45deg)) translateZ(190px);
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
         }
         .image-box span img{
             position: absolute;
             left: 0;
             top: 0;
             width: 100%;
-            height: 190px;
+            height: 200px;
             transition: all 0.5s ease;
         }
         .button{
