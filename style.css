@@ -566,6 +566,8 @@ section ul li.active{
             width: 100%;
         }
         .form{
+            display: flex;
+            justify-content: center;
             width: 350px;
         }
         .fa-bars{
