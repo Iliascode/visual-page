@@ -576,6 +576,9 @@ section ul li.active{
         section{
             width: 100%;
         }
+        .form{
+            width: 350px;
+        }
         .fa-bars{
             display: block;
         }
@@ -665,10 +668,7 @@ section ul li.active{
         .col-1{
             text-align: center;
         }
-        .form{
-           width: 400px; 
     }
-}
 
 
 
