@@ -622,7 +622,7 @@ section ul li.active{
             width: 100%;
             top: 0;
             left: 0;
-            transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(250px);
         }
         .image-box span img{
             position: absolute;
