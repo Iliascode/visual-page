@@ -144,7 +144,7 @@ section{
 .button{
     position: absolute;
     padding: 5px;
-    bottom: 150px;
+    bottom: 180px;
     font-size: 20px;
     font-weight: 500;
     border-radius: 10px;
@@ -179,7 +179,7 @@ section{
     text-align: center;
 }
 .heading h6, .contact-title h6{
-    font-size: 30px;
+    font-size: 25px;
     color: lightgrey;
     line-height: 35px;
     letter-spacing: 3px;
@@ -207,12 +207,12 @@ section{
 }
 .box i{
     color: lightgray;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 18px;
 }
 .box h3{
     color: lightgray;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -304,7 +304,7 @@ section ul li.active{
     align-items: center;
 }
 .FAQ h6{
-    font-size: 30px;
+    font-size: 25px;
     color: lightgray;
     line-height: 35px;
     letter-spacing: 3px;
@@ -351,7 +351,7 @@ section ul li.active{
 }
 .question-content .discription{
     color: lightgray;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     padding: 0 15px;
     height: 0;
@@ -372,27 +372,16 @@ section ul li.active{
 #button:hover{
     transform: scale(1.05);
 }
-.close-icon{
-    position: absolute;
-    font-size: 30px;
-    cursor: pointer;
-    right: 15px;
-    top: 5px;
-    transition: .5s ease;
-}
-.close-icon:hover{
-    color: #FB2576;
-}
 .contact-text h6{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: lightgray;
     line-height: 35px;
     letter-spacing: 3px;
 }
 .contact-text p{
     color: lightgray;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 400;
     text-align: center;
 }
