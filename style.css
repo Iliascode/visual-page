@@ -566,7 +566,7 @@ section ul li.active{
             width: 100%;
         }
         .form{
-            width: 370px;
+            width: 100%;
         }
         .fa-bars{
             display: block;
@@ -647,7 +647,7 @@ section ul li.active{
             display: none;
         }
         .services-content{
-            width: 370px;
+            width: 100%;
             display: grid;
             grid-template-columns: 1fr;
         }
