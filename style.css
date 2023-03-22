@@ -669,8 +669,9 @@ section ul li.active{
         .col-1 p{
             display: none;
         }
-        .col-1 a{
-            text-align: center;
+        .col-1 .fa-brands{
+           display: flex;
+           justify-content: center;
         }
     }
 
