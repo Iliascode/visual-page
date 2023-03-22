@@ -669,13 +669,13 @@ section ul li.active{
         .col-1 p{
             display: none;
         }
-        .col-1 .fa-brands{
-           display: flex;
-           justify-content: center;
-        }
+        .col-1 a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
     }
 
-
+}
 
 
 
