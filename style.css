@@ -666,9 +666,8 @@ section ul li.active{
             display: grid;
             grid-template-columns: 1fr;
         }
-        .col-1{
-            text-align: center;
-        }
+        .col-1 p{
+            display: none;
     }
 
 
