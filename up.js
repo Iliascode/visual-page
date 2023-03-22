@@ -4,12 +4,8 @@
     const backBtn = document.getElementById("back");
     const nextBtn = document.getElementById("next");
     const cards = document.querySelectorAll(".box");
-    const buttons = document.querySelectorAll(".item");
-    const imageGallary = document.querySelectorAll(".work-item");
     const questionContent = document.querySelectorAll(".question-content");
     const bodyEl = document.querySelector("body");
-    const portfolioContentEl = document.querySelector(".portfolio-content");
-    const worksEl = document.querySelector(".works");
 
     //bar menu//
     bars.addEventListener("click", ()=>{
@@ -43,24 +39,28 @@
     }
 
    //portfolio//
+   const buttons = document.querySelectorAll(".item");
+   const portfolioContentEl = document.querySelector(".portfolio-content");
+   const worksEl = document.querySelector(".works");
+   const filterList = document.querySelector(".portfolio-list");
+   const imageGallary = document.querySelectorAll(".work-item");
+
 
     for(let i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener("click", function(){
-    for(let j = 0; j < buttons.length; j++){
-            buttons[j].classList.remove("active");
-        }
-        this.classList.add("active");
-        const target = this.getAttribute("data-target");
-
-    for(let k = 0; k < imageGallary.length; k++){
-            imageGallary[k].style.display = "none";
-            if(target == imageGallary[k].getAttribute("data-id")){
-                imageGallary[k].style.display = "block";
+        buttons[i].addEventListener("click", function(){  
+            const target = this.getAttribute("data-target");
+    for(let k = 0; k < imageGallary.length; k++){ 
+        imageGallary[k].classList.toggle("show");
+            if(target == imageGallary[k].getAttribute("data-id") && imageGallary[k].classList.contains("show")){
+                imageGallary[k].classList.add("show");
+                imageGallary[k].classList.remove("hidden");
+            }else{
+                imageGallary[k].classList.add("hidden");
+                imageGallary[k].classList.remove("show");
             }
         }
     });
 }
-
 
 // FAQ section //
 questionContent.forEach((content, index)=>{
@@ -91,11 +91,10 @@ function removeOpen(index1){
     });
 }
 
-
 //email form//
-
+const formEl = document.querySelector(".form");
 const emailEl = document.getElementById("email");
-const textEl = document.getElementById("text");
+const textEl = document.getElementById("name");
 const textareaEl = document.getElementById("msg");
 const sendBtn = document.getElementById("send");
 
