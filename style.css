@@ -669,9 +669,11 @@ section ul li.active{
         .col-1 p{
             display: none;
         }
-}
+        .col-1 a{
+            margin-bottom: 30px;
+        }
 
-
+    }
 
 
 
