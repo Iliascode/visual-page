@@ -573,11 +573,8 @@ section ul li.active{
     }
 
     @media(max-width: 550px){
-        section{
-            width: 100%;
-        }
         .form{
-            width: 400px;
+            width: 350px;
         }
         .fa-bars{
             display: block;
@@ -672,7 +669,7 @@ section ul li.active{
         .col-1 a{
             display: flex;
             justify-content: center;
-            align-items: center;
+        
     }
 
 }
