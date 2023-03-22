@@ -296,6 +296,18 @@ section ul li.active{
 .works .work-item.hidden{
     display: none;
 }
+.works .work-item.show{
+    display: block;
+    animation: animate .5s ease;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .FAQ{
     min-height: 100vh;
     display: flex;
