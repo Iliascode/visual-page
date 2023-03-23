@@ -670,6 +670,7 @@ section ul li.active{
             display: none;
         }
         .col-1 a{
+            text-align: center;
             margin-bottom: 30px;
         }
 
