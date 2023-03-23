@@ -484,7 +484,7 @@ section ul li.active{
         transition: .3s;
     }
 }
-@media(max-width: 676px){
+@media(max-width: 800px){
         section{
             padding: 70px 3% 60px;
         }
@@ -572,7 +572,7 @@ section ul li.active{
         }
     }
 
-    @media(max-width: 550px){
+    @media(max-width: 600px){
         section{
             width: 100%;
         }
