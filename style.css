@@ -26,8 +26,9 @@ header{
     background-image: url("bg1.jpg");
 }
 .logo-img{
-    display: block;
-    width: 100px;
+    display: flex;
+    align-items: center;
+    width: 150px;
     height: 20px;
     object-fit: cover;
     cursor: pointer;
