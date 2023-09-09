@@ -23,10 +23,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 7%;
+    background-image: url("bg1.jpg");
 }
 .logo-img{
     display: block;
-    width: 150px;
+    width: 200px;
+    height: 100px;
     object-fit: cover;
     cursor: pointer;
     transition: .45s ease;
