@@ -262,6 +262,9 @@ section{
     cursor: pointer;
     transition: all .45s ease;
 }
+.portfolio-content ul li a{
+    color: lightgray;
+}
 section ul li:hover{
     transform: scale(1.01) translateY(-5px);
 }
