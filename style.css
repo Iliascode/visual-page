@@ -36,7 +36,11 @@ header .logo:hover{
     transform: scale(1.06);
 }
 .logo-img{
+    display: block;
     width: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
 .fa-bars{
     font-size: 18px;
     cursor: pointer;
