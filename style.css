@@ -35,6 +35,8 @@ header .logo:hover{
     filter: brightness(1.1);
     transform: scale(1.06);
 }
+.logo-img{
+    width: 150px;
 .fa-bars{
     font-size: 18px;
     cursor: pointer;
