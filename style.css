@@ -28,7 +28,7 @@ header{
 .logo-img{
     display: block;
     width: 200px;
-    height: 100px;
+    height: 30px;
     object-fit: cover;
     cursor: pointer;
     transition: .45s ease;
