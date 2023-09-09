@@ -24,15 +24,17 @@ header{
     align-items: center;
     padding: 20px 7%;
 }
-.logo{
-    font-size: 22px;
+.logo-img{
     display: block;
-    color: lightgray;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
     cursor: pointer;
-    transition: .5s ease;
+    transition: .45s ease;
 }
-.logo:hover{
-     transform: scale(1.06);
+.logo-img:hover{
+    transform: scale(1.06);
+    filter: brightness(1.7);
 }
 .fa-bars{
     font-size: 18px;
