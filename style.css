@@ -23,14 +23,15 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 7%;
-    background-image: url("bg1.jpg");
 }
-.logo-img{
-    display: flex;
-    width: 200px;
-    height: 100px;
-    object-fit: cover;
+.logo{
+    font-size: 18px;
+    box-shadow: 2px 4px 5px lightgray;
     cursor: pointer;
+    transition: .5s ease;
+}
+.logo:hover{
+     transform: scale(1.06);
 }
 .fa-bars{
     font-size: 18px;
